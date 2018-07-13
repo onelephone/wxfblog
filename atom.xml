@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.asyncedu.com/"/>
-  <updated>2018-07-04T07:03:25.537Z</updated>
+  <updated>2018-07-13T10:01:37.418Z</updated>
   <id>http://www.asyncedu.com/</id>
   
   <author>
@@ -17,11 +17,57 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>first blog</title>
+    <title>Java导出Word</title>
+    <link href="http://www.asyncedu.com/2018/07/13/Java%E5%AF%BC%E5%87%BAWord/"/>
+    <id>http://www.asyncedu.com/2018/07/13/Java导出Word/</id>
+    <published>2018-07-13T10:02:51.000Z</published>
+    <updated>2018-07-13T10:01:37.418Z</updated>
+    
+    <content type="html"><![CDATA[<p> 实现思路是这样的：找一个存在的word文档，然后把需要替换的数据换成变量${}，然后将文档保存为xml 2003格式，使用文档编辑器打开这个xml格式的文档，去掉${}中多余的xml符号，最后将模板后缀名改为ftl，使用Freemarker读取这个文档然后替换掉变量，输出word文档即可。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; 实现思路是这样的：找一个存在的word文档，然后把需要替换的数据换成变量${}，然后将文档保存为xml 2003格式，使用文档编辑器打开这个xml格式的文档，去掉${}中多余的xml符号，最后将模板后缀名改为ftl，使用Freemarker读取这个文档然后替换掉变量，输出
+      
+    
+    </summary>
+    
+      <category term="开发" scheme="http://www.asyncedu.com/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="JAVA" scheme="http://www.asyncedu.com/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大数据学习笔记（一）-简介</title>
+    <link href="http://www.asyncedu.com/2018/07/04/Introduction%20To%20Big%20Data-based%20Machine%20Learning/"/>
+    <id>http://www.asyncedu.com/2018/07/04/Introduction To Big Data-based Machine Learning/</id>
+    <published>2018-07-04T07:02:51.000Z</published>
+    <updated>2018-07-13T10:08:24.628Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>大数据分析是指对规模巨大的数据进行分析。大数据可以概括为4个V， 数据量大(Volume)、速度快(Velocity)、类型多(Variety)、价值（Value）。<br><a id="more"></a></p></blockquote><h1 id="Small-Data"><a href="#Small-Data" class="headerlink" title="Small Data"></a>Small Data</h1><ul><li>量级: MB,GB</li><li>种类：Structured data DB</li><li>价值：不高</li><li>计算速度：相对较慢</li></ul><p>我们的单体应用差不多都是如此。</p><h1 id="Big-Data"><a href="#Big-Data" class="headerlink" title="Big Data"></a>Big Data</h1><ul><li>量级: GB/TB/PB/EB</li><li>种类：structured DB,doc,pic,video</li><li>价值：Rules,relationship,pattern</li><li>计算速度：很快</li></ul><p><strong>存储</strong></p><p> Distributed: HDFS, Hbase </p><p><strong>收集</strong></p><p>Crawl, ETL, RT</p><p><strong>挖掘</strong></p><p>Statistics, data mining(regression, classification, clustering, association…)</p><p><strong>计算</strong></p><p>Distributed: MR, hive, spark, streaming</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;大数据分析是指对规模巨大的数据进行分析。大数据可以概括为4个V， 数据量大(Volume)、速度快(Velocity)、类型多(Variety)、价值（Value）。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="大数据" scheme="http://www.asyncedu.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>临江仙·滚滚长江东逝水</title>
     <link href="http://www.asyncedu.com/2018/07/04/first-blog/"/>
     <id>http://www.asyncedu.com/2018/07/04/first-blog/</id>
     <published>2018-07-04T07:02:51.000Z</published>
-    <updated>2018-07-04T07:03:25.537Z</updated>
+    <updated>2018-07-13T08:27:09.390Z</updated>
     
     <content type="html"><![CDATA[<p>滚滚长江东逝水，浪花淘尽英雄。<br>是非成败转头空。<br>青山依旧在，几度夕阳红。<br>白发渔樵江渚上，惯看秋月春风。<br>一壶浊酒喜相逢。<br>古今多少事，都付笑谈中。</p>]]></content>
     
@@ -35,6 +81,12 @@
     
     </summary>
     
+      <category term="文学修养" scheme="http://www.asyncedu.com/categories/%E6%96%87%E5%AD%A6%E4%BF%AE%E5%85%BB/"/>
+    
+    
+      <category term="文学" scheme="http://www.asyncedu.com/tags/%E6%96%87%E5%AD%A6/"/>
+    
+      <category term="词牌" scheme="http://www.asyncedu.com/tags/%E8%AF%8D%E7%89%8C/"/>
     
   </entry>
   
@@ -53,6 +105,28 @@
     
     </summary>
     
+    
+  </entry>
+  
+  <entry>
+    <title>Maven笔记</title>
+    <link href="http://www.asyncedu.com/2017/07/13/Maven%E7%AC%94%E8%AE%B0/"/>
+    <id>http://www.asyncedu.com/2017/07/13/Maven笔记/</id>
+    <published>2017-07-13T09:07:51.000Z</published>
+    <updated>2018-07-13T09:31:26.986Z</updated>
+    
+    <content type="html"><![CDATA[<p>Maven是一个项目构建工具，包含了一个项目对象模型（POM），一组标准集合，一个项目生命周期，一个依赖管理系统和用来运行定义在生命周期阶段中插件目标的逻辑。<br><a id="more"></a><br>常用命令：</p><ul><li>mvn archetype:create  创建Maven项目</li><li>mvn compile 编译源码</li><li>mvn test-compile 编译测试代码</li><li>mvn test 运行应用程序中的单元测试</li><li>mvn clean 清楚目标目录中的生成结果</li><li>mvn package 依据项目生成jar文件</li><li>mvn install： 在本地Respository中安装</li><li>mvn deploy 发布本地项目到nexus</li></ul><p>依赖的作用范围：</p><ul><li>compile:默认使用该以来，对编译，测试，运行三种classpath都有效</li><li>test：只对测试时有效，如junit</li><li>provided:在运行时无效，对编译和测试有效，如servlet-api</li><li>runtime：对测试和运行有效，在编译时无效，如jdbc</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Maven是一个项目构建工具，包含了一个项目对象模型（POM），一组标准集合，一个项目生命周期，一个依赖管理系统和用来运行定义在生命周期阶段中插件目标的逻辑。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="构建工具" scheme="http://www.asyncedu.com/categories/%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Maven" scheme="http://www.asyncedu.com/tags/Maven/"/>
     
   </entry>
   

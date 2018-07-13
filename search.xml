@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[first blog]]></title>
+    <title><![CDATA[Java导出Word]]></title>
+    <url>%2F2018%2F07%2F13%2FJava%E5%AF%BC%E5%87%BAWord%2F</url>
+    <content type="text"><![CDATA[实现思路是这样的：找一个存在的word文档，然后把需要替换的数据换成变量${}，然后将文档保存为xml 2003格式，使用文档编辑器打开这个xml格式的文档，去掉${}中多余的xml符号，最后将模板后缀名改为ftl，使用Freemarker读取这个文档然后替换掉变量，输出word文档即可。]]></content>
+      <categories>
+        <category>开发</category>
+      </categories>
+      <tags>
+        <tag>JAVA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[大数据学习笔记（一）-简介]]></title>
+    <url>%2F2018%2F07%2F04%2FIntroduction%20To%20Big%20Data-based%20Machine%20Learning%2F</url>
+    <content type="text"><![CDATA[大数据分析是指对规模巨大的数据进行分析。大数据可以概括为4个V， 数据量大(Volume)、速度快(Velocity)、类型多(Variety)、价值（Value）。 Small Data 量级: MB,GB 种类：Structured data DB 价值：不高 计算速度：相对较慢 我们的单体应用差不多都是如此。 Big Data 量级: GB/TB/PB/EB 种类：structured DB,doc,pic,video 价值：Rules,relationship,pattern 计算速度：很快 存储 Distributed: HDFS, Hbase 收集 Crawl, ETL, RT 挖掘 Statistics, data mining(regression, classification, clustering, association…) 计算 Distributed: MR, hive, spark, streaming]]></content>
+      <tags>
+        <tag>大数据</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[临江仙·滚滚长江东逝水]]></title>
     <url>%2F2018%2F07%2F04%2Ffirst-blog%2F</url>
     <content type="text"><![CDATA[滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。青山依旧在，几度夕阳红。白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。古今多少事，都付笑谈中。]]></content>
+      <categories>
+        <category>文学修养</category>
+      </categories>
+      <tags>
+        <tag>文学</tag>
+        <tag>词牌</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F06%2F28%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Maven笔记]]></title>
+    <url>%2F2017%2F07%2F13%2FMaven%E7%AC%94%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[Maven是一个项目构建工具，包含了一个项目对象模型（POM），一组标准集合，一个项目生命周期，一个依赖管理系统和用来运行定义在生命周期阶段中插件目标的逻辑。常用命令： mvn archetype:create 创建Maven项目 mvn compile 编译源码 mvn test-compile 编译测试代码 mvn test 运行应用程序中的单元测试 mvn clean 清楚目标目录中的生成结果 mvn package 依据项目生成jar文件 mvn install： 在本地Respository中安装 mvn deploy 发布本地项目到nexus 依赖的作用范围： compile:默认使用该以来，对编译，测试，运行三种classpath都有效 test：只对测试时有效，如junit provided:在运行时无效，对编译和测试有效，如servlet-api runtime：对测试和运行有效，在编译时无效，如jdbc]]></content>
+      <categories>
+        <category>构建工具</category>
+      </categories>
+      <tags>
+        <tag>Maven</tag>
+      </tags>
   </entry>
 </search>

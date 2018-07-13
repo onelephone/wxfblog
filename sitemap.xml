@@ -3,12 +3,22 @@
 
     <sitemap>
         <loc>http://www.asyncedu.com/post-sitemap.xml</loc>
-        <lastmod>2018-07-13T03:24:55.898Z</lastmod>
+        <lastmod>2018-07-13T10:08:24.628Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://www.asyncedu.com/page-sitemap.xml</loc>
         <lastmod>2018-07-13T05:22:47.132Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://www.asyncedu.com/category-sitemap.xml</loc>
+        <lastmod>2018-07-13T08:27:09.390Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://www.asyncedu.com/tag-sitemap.xml</loc>
+        <lastmod>2018-07-13T08:27:09.390Z</lastmod>
     </sitemap>
 
 </sitemapindex>
