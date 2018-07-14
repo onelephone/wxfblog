@@ -2,20 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://www.asyncedu.com/tags/%E6%96%87%E5%AD%A6/</loc>
-        <lastmod>2018-07-13T08:27:09.390Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.asyncedu.com/tags/%E8%AF%8D%E7%89%8C/</loc>
-        <lastmod>2018-07-13T08:27:09.390Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.asyncedu.com/tags/Maven/</loc>
         <lastmod>2018-07-13T09:31:26.986Z</lastmod>
         <changefreq>weekly</changefreq>

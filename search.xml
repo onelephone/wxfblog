@@ -20,23 +20,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[临江仙·滚滚长江东逝水]]></title>
-    <url>%2F2018%2F07%2F04%2Ffirst-blog%2F</url>
-    <content type="text"><![CDATA[滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。青山依旧在，几度夕阳红。白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。古今多少事，都付笑谈中。]]></content>
-      <categories>
-        <category>文学修养</category>
-      </categories>
-      <tags>
-        <tag>文学</tag>
-        <tag>词牌</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F06%2F28%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[Maven笔记]]></title>
     <url>%2F2017%2F07%2F13%2FMaven%E7%AC%94%E8%AE%B0%2F</url>
     <content type="text"><![CDATA[Maven是一个项目构建工具，包含了一个项目对象模型（POM），一组标准集合，一个项目生命周期，一个依赖管理系统和用来运行定义在生命周期阶段中插件目标的逻辑。常用命令： mvn archetype:create 创建Maven项目 mvn compile 编译源码 mvn test-compile 编译测试代码 mvn test 运行应用程序中的单元测试 mvn clean 清楚目标目录中的生成结果 mvn package 依据项目生成jar文件 mvn install： 在本地Respository中安装 mvn deploy 发布本地项目到nexus 依赖的作用范围： compile:默认使用该以来，对编译，测试，运行三种classpath都有效 test：只对测试时有效，如junit provided:在运行时无效，对编译和测试有效，如servlet-api runtime：对测试和运行有效，在编译时无效，如jdbc]]></content>
