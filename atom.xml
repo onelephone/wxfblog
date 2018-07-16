@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.asyncedu.com/"/>
+  <link href="http://wangxf.asyncedu.com/"/>
   <updated>2018-07-13T10:01:37.418Z</updated>
-  <id>http://www.asyncedu.com/</id>
+  <id>http://wangxf.asyncedu.com/</id>
   
   <author>
     <name>王旭峰</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Java导出Word</title>
-    <link href="http://www.asyncedu.com/2018/07/13/Java%E5%AF%BC%E5%87%BAWord/"/>
-    <id>http://www.asyncedu.com/2018/07/13/Java导出Word/</id>
+    <link href="http://wangxf.asyncedu.com/2018/07/13/Java%E5%AF%BC%E5%87%BAWord/"/>
+    <id>http://wangxf.asyncedu.com/2018/07/13/Java导出Word/</id>
     <published>2018-07-13T10:02:51.000Z</published>
     <updated>2018-07-13T10:01:37.418Z</updated>
     
@@ -34,17 +34,17 @@
     
     </summary>
     
-      <category term="开发" scheme="http://www.asyncedu.com/categories/%E5%BC%80%E5%8F%91/"/>
+      <category term="开发" scheme="http://wangxf.asyncedu.com/categories/%E5%BC%80%E5%8F%91/"/>
     
     
-      <category term="JAVA" scheme="http://www.asyncedu.com/tags/JAVA/"/>
+      <category term="JAVA" scheme="http://wangxf.asyncedu.com/tags/JAVA/"/>
     
   </entry>
   
   <entry>
     <title>大数据学习笔记（一）-简介</title>
-    <link href="http://www.asyncedu.com/2018/07/04/Introduction%20To%20Big%20Data-based%20Machine%20Learning/"/>
-    <id>http://www.asyncedu.com/2018/07/04/Introduction To Big Data-based Machine Learning/</id>
+    <link href="http://wangxf.asyncedu.com/2018/07/04/Introduction%20To%20Big%20Data-based%20Machine%20Learning/"/>
+    <id>http://wangxf.asyncedu.com/2018/07/04/Introduction To Big Data-based Machine Learning/</id>
     <published>2018-07-04T07:02:51.000Z</published>
     <updated>2018-07-13T10:08:24.628Z</updated>
     
@@ -58,14 +58,14 @@
     </summary>
     
     
-      <category term="大数据" scheme="http://www.asyncedu.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+      <category term="大数据" scheme="http://wangxf.asyncedu.com/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
   </entry>
   
   <entry>
     <title>Maven笔记</title>
-    <link href="http://www.asyncedu.com/2017/07/13/Maven%E7%AC%94%E8%AE%B0/"/>
-    <id>http://www.asyncedu.com/2017/07/13/Maven笔记/</id>
+    <link href="http://wangxf.asyncedu.com/2017/07/13/Maven%E7%AC%94%E8%AE%B0/"/>
+    <id>http://wangxf.asyncedu.com/2017/07/13/Maven笔记/</id>
     <published>2017-07-13T09:07:51.000Z</published>
     <updated>2018-07-13T09:31:26.986Z</updated>
     
@@ -77,10 +77,10 @@
     
     </summary>
     
-      <category term="构建工具" scheme="http://www.asyncedu.com/categories/%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/"/>
+      <category term="构建工具" scheme="http://wangxf.asyncedu.com/categories/%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="Maven" scheme="http://www.asyncedu.com/tags/Maven/"/>
+      <category term="Maven" scheme="http://wangxf.asyncedu.com/tags/Maven/"/>
     
   </entry>
   
